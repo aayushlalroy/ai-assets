@@ -1,74 +1,32 @@
-# AI Assets — Portable Skills, Principles & Agent Artifacts
+# assets/ — drop-in, reusable artifacts
 
-This repository contains the canonical, portable AI skills, principles, and workflows designed for modern AI coding agents (Cursor, Claude Code, Gemini/Antigravity, Devin, Codex, Windsurf, GitHub Copilot).
+The **portable payload** of the knowledge book: the concrete files you copy into a
+new machine or agent to work *your* way from day one. Unlike the numbered root docs
+(which *describe* how the engineer works), everything here is meant to be **used
+directly**.
 
-It is powered by **[Axon](https://github.com/aayushlalroy/axon)** — the universal Skill & Constitution Management System for AI coding agents.
+## What's inside
 
----
-
-## Quick Start: Staging & Enabling Assets with Axon
-
-### 1. Install Axon CLI
-
-```bash
-curl -sSL https://raw.githubusercontent.com/aayushlalroy/axon/main/install.sh | bash
-```
-
-For source installation or repository reference:
-- GitHub: [https://github.com/aayushlalroy/axon](https://github.com/aayushlalroy/axon)
-- Local repository path: `/Users/roy.a2yush/Develop/Personal/opensource/aayushlalroy/axon`
-
-### 2. Bulk Import All Assets into Axon
-
-Bulk stage all skills, principles, and workflows using the pre-configured import manifest:
-
-```bash
-axon import . --config axon-import.yaml
-```
-
-### 3. Enable for Your Project
-
-Enable all staged assets in your active workspace (e.g., Cursor, Claude Code, Devin):
-
-```bash
-axon init                             # Scaffolds target directories for all agents
-axon enable --all --agent cursor      # Enable for Cursor
-axon enable --all --agent claude      # Enable for Claude Code
-axon enable --all --agent gemini      # Enable for Gemini/Antigravity
-```
-
----
-
-## Directory Structure
-
-| Path | Description |
+| Path | What it is |
 | --- | --- |
-| `principles/` | Always-on coding rules (e.g., `claim-tagging.md`, `skill-attribution.md`, `token-attribution.md`). |
-| `skills/` | On-demand AgentSkills (`SKILL.md` layout) covering engineering runbooks and the `idea-lab` suite. |
-| `axon-import.yaml` | Pre-configured bulk import manifest for `axon import`. |
-| `INDEX.md` | Master Navigation Registry with individual `axon add` commands per skill. |
+| `AGENTS.md` | A drop-in conventions/rules file — copy to a project root or `~/.cursor/AGENTS.md` so an agent adopts the engineer's standards immediately. |
+| `skills/` | The canonical, portable `SKILL.md` agent skills (engineering runbooks + the idea-lab suite). See [`skills/README.md`](skills/README.md). |
+| `personal-ai-dataset.jsonl` | 1,549 anonymized instruction→response pairs distilled from real sessions. Datasheet: [`../11-personal-ai-dataset.md`](../11-personal-ai-dataset.md). *(Gitignored pending review.)* |
 
----
+## How this differs from other folders
 
-## Staging Individual Skills / Principles
+- **vs. the numbered root docs (`00`–`12`)** — those are *prose about* the engineer;
+  this folder holds the *machine-usable artifacts* (rules file, skills, dataset).
+- **vs. `skills/` (top level)** — `assets/skills/` are hand-authored **engineering +
+  idea-lab** skills you invoke directly. The top-level [`skills/`](../skills/) folder is a
+  separate **chat-mining refresh pipeline**. Different purpose, no overlap.
+- **vs. `bootstrap/`** — `bootstrap/` is only the *installer* that copies `AGENTS.md`
+  and `skills/` onto a new box; the sources of truth live here.
 
-To stage an individual item manually into Axon:
+## Duplicate notes
 
-```bash
-# Stage a single skill:
-axon add skills/clarify-first --type skill --name clarify-first
-
-# Stage a single principle:
-axon add principles/claim-tagging.md --type principle --name claim-tagging
-
-# Stage a workflow:
-axon add skills/idea-lab --type workflow --name idea-lab
-```
-
-See [`INDEX.md`](./INDEX.md) for the complete list of individual staging commands and skill dependencies.
-
----
-
-## License
-
-MIT © Aayush Lal Roy
+- `personal-ai-dataset.jsonl` is the **data**; `local-ai-assistant/` adds a *runnable
+  retrieval layer* over it (intentional, additive — not a copy).
+- `assets/skills/` is copied into `publishing/skills-pack/skills/` for public release.
+  That copy is intentional (adds an MIT license + catalog for distribution); the
+  originals here remain the source of truth.

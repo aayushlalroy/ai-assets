@@ -26,10 +26,13 @@ skills:
   - path: skills/adversarial-review-loop
   - path: skills/skill-creator
   - path: skills/idea-lab
+  - path: skills/doc-version-sync
 
 principles:
   - path: principles/claim-tagging.md
   - path: principles/skill-attribution.md
   - path: principles/token-attribution.md
+  - path: principles/doc-version-sync-policy.md
 
 workflows: []
+
