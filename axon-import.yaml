@@ -1,0 +1,35 @@
+# Axon Import Registry for Assets
+# Command: axon import assets/ --config assets/axon-import.yaml
+
+name_source: auto  # Strategies: auto | frontmatter | folder | file
+
+skills:
+  - path: skills/clarify-first
+  - path: skills/evidence-ledger
+  - path: skills/ai-parsable-logging
+  - path: skills/hibernate-nplus1-optimizer
+  - path: skills/git-recovery-runbook
+  - path: skills/request-layer-tracer
+  - path: skills/test-coverage-booster
+  - path: skills/openapi-contract-first
+  - path: skills/bruno-request-generator
+  - path: skills/jira-tech-story-drafter
+  - path: skills/scrutinize-idea
+  - path: skills/visualize-idea-website
+  - path: skills/skill-improvement-log
+  - path: skills/create-skill-from-formatted
+  - path: skills/create-skill-from-prompt
+  - path: skills/create-skill-from-workflow
+  - path: skills/skill-metadata-optimizer
+  - path: skills/spring-startup-doctor
+  - path: skills/pr-review-principal
+  - path: skills/adversarial-review-loop
+  - path: skills/skill-creator
+  - path: skills/idea-lab
+
+principles:
+  - path: principles/claim-tagging.md
+  - path: principles/skill-attribution.md
+  - path: principles/token-attribution.md
+
+workflows: []
