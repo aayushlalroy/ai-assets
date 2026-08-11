@@ -28,7 +28,7 @@ Evaluates and optimizes existing or imported `SKILL.md` files for discoverabilit
 ```markdown
 Parsing SKILL.md...
 Delegating metadata audit to skill-metadata-optimizer...
-Token Impact: 85 words ➔ 38 words (55% reduction).
+Token Impact: 85 words -> 38 words (55% reduction).
 ```
 
 ---

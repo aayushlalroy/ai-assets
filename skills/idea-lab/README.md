@@ -29,10 +29,10 @@ Orchestrates end-to-end idea processing through a 4-phase pipeline: (1) Clarify 
 
 ### 4-Phase Pipeline Progression
 ```
-Phase 1: Clarify (clarify-first) ➔ Q1, Q2, Q3 resolved
-Phase 2: Scrutinize (scrutinize-idea) ➔ Steel-man, Pre-mortem, ICE/RICE scoring
-Phase 3: Harden (adversarial-review-loop) ➔ 3 rounds of fresh-eyes review
-Phase 4: Prototype (visualize-idea-website) ➔ React + Vite interactive dashboard
+Phase 1: Clarify (clarify-first) -> Q1, Q2, Q3 resolved
+Phase 2: Scrutinize (scrutinize-idea) -> Steel-man, Pre-mortem, ICE/RICE scoring
+Phase 3: Harden (adversarial-review-loop) -> 3 rounds of fresh-eyes review
+Phase 4: Prototype (visualize-idea-website) -> React + Vite interactive dashboard
 ```
 
 ---

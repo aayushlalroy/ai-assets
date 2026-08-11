@@ -42,13 +42,13 @@ When called with an existing `SKILL.md` file, raw frontmatter, or skill draft:
 ### Step 3: Justification & Diff Report
 Generate a transparent report for the user:
 - **Original Description** vs **Proposed Description**
-- **Token Impact**: Original word count ➔ New word count (% reduction).
+- **Token Impact**: Original word count -> New word count (% reduction).
 - **Why the Change**: Exact details removed from frontmatter.
 - **How Mitigated**: File pointers showing where those details live in the body.
 - **Discoverability Analysis**: Trigger coverage breakdown (User prompt, Workflow, Negative boundary).
 
 ### Step 4: User Review Gate
 Present the proposed metadata and report for user approval:
-- If approved ➔ Apply frontmatter update.
-- **If the user says NOT to change ➔ Respect decision and keep original intact.**
-- If user requests tweaks ➔ Revise description accordingly.
+- If approved -> Apply frontmatter update.
+- **If the user says NOT to change -> Respect decision and keep original intact.**
+- If user requests tweaks -> Revise description accordingly.

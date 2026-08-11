@@ -16,13 +16,13 @@ Master orchestrator for creating, importing, and optimizing agent skills. Automa
 Inspect the user's input and delegate to the appropriate leaf sub-skill:
 
 1. **Formatted Skill File / String** (e.g. user passes an existing `SKILL.md`, a path to a skill file, or content exported from another resource):
-   ➔ Delegate to [`create-skill-from-formatted`](../create-skill-from-formatted/SKILL.md)
+   -> Delegate to [`create-skill-from-formatted`](../create-skill-from-formatted/SKILL.md)
 
 2. **Natural Language Idea / Prompt** (e.g. user describes a task/behavior they want packaged into a skill):
-   ➔ Delegate to [`create-skill-from-prompt`](../create-skill-from-prompt/SKILL.md)
+   -> Delegate to [`create-skill-from-prompt`](../create-skill-from-prompt/SKILL.md)
 
 3. **Workflow / Conversation Transcript / Logs** (e.g. distilling a recent execution or multi-step workflow into a skill):
-   ➔ Delegate to [`create-skill-from-workflow`](../create-skill-from-workflow/SKILL.md)
+   -> Delegate to [`create-skill-from-workflow`](../create-skill-from-workflow/SKILL.md)
 
 ## Composition & Primitive Tree
 

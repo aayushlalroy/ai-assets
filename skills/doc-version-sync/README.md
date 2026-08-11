@@ -25,7 +25,7 @@
 
 ### Example 1: Minor Feature Release Output
 ```markdown
-### 🚀 Version Sync Complete: `v1.2.0` ➔ `v1.3.0` (MINOR Bump)
+### 🚀 Version Sync Complete: `v1.2.0` -> `v1.3.0` (MINOR Bump)
 
 - **SemVer Reason**: Added optional `page_size` parameter to share search API.
 - **Files Updated**: `package.json`, `CHANGELOG.md`, `README.md`.
@@ -35,7 +35,7 @@
 
 ### Example 2: Major Release with Breaking Change & Stale Cache Warning
 ```markdown
-### 🚀 Version Sync Complete: `v1.3.0` ➔ `v2.0.0` (MAJOR Bump)
+### 🚀 Version Sync Complete: `v1.3.0` -> `v2.0.0` (MAJOR Bump)
 
 - **SemVer Reason**: Removed deprecated `user_id` query parameter in favor of JWT context.
 - **Files Updated**: `pyproject.toml`, `CHANGELOG.md`, `README.md`.

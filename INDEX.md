@@ -56,4 +56,4 @@
 
 | Workflow | Description | README Link | Axon Import Command | Prerequisites Warning |
 | :--- | :--- | :--- | :--- | :--- |
-| **idea-lab** | 4-Phase idea incubator (Clarify ➔ Scrutinize ➔ Harden ➔ Prototype). | [`README.md`](skills/idea-lab/README.md) | `axon add skill skills/idea-lab` | ⚠️ Requires `clarify-first`, `evidence-ledger`, `scrutinize-idea`, `adversarial-review-loop`, `visualize-idea-website` |
+| **idea-lab** | 4-Phase idea incubator (Clarify -> Scrutinize -> Harden -> Prototype). | [`README.md`](skills/idea-lab/README.md) | `axon add skill skills/idea-lab` | ⚠️ Requires `clarify-first`, `evidence-ledger`, `scrutinize-idea`, `adversarial-review-loop`, `visualize-idea-website` |

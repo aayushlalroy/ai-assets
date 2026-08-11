@@ -27,9 +27,9 @@ Orchestrates skill creation by detecting input type (formatted `SKILL.md`, raw p
 ## Examples
 
 ### Routing Logic
-- Formatted file input ➔ `create-skill-from-formatted`
-- Single prompt idea ➔ `create-skill-from-prompt`
-- Chat transcript / session history ➔ `create-skill-from-workflow`
+- Formatted file input -> `create-skill-from-formatted`
+- Single prompt idea -> `create-skill-from-prompt`
+- Chat transcript / session history -> `create-skill-from-workflow`
 
 ---
 

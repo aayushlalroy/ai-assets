@@ -73,7 +73,7 @@ Whenever analyzing changes, explicitly audit and flag the following risk categor
 After applying updates, output a summary report:
 
 ```markdown
-### 🚀 Version Sync Complete: `v1.2.3` ➔ `v1.3.0` (MINOR Bump)
+### 🚀 Version Sync Complete: `v1.2.3` -> `v1.3.0` (MINOR Bump)
 
 - **SemVer Reason**: Added new `/v1/shares` pagination parameter (backward-compatible).
 - **Files Updated**: `pyproject.toml`, `CHANGELOG.md`, `README.md`.
