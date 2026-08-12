@@ -57,3 +57,14 @@
 | Workflow | Description | README Link | Axon Import Command | Prerequisites Warning |
 | :--- | :--- | :--- | :--- | :--- |
 | **idea-lab** | 4-Phase idea incubator (Clarify -> Scrutinize -> Harden -> Prototype). | [`README.md`](skills/idea-lab/README.md) | `axon add skill skills/idea-lab` | ⚠️ Requires `clarify-first`, `evidence-ledger`, `scrutinize-idea`, `adversarial-review-loop`, `visualize-idea-website` |
+
+---
+
+## Community Resources & Blog Posts
+
+* 📦 **[ai-assets Repository](https://github.com/aayushlalroy/ai-assets)** — Official community repository containing production-ready skills, principles, and workflows.
+* 📦 **[Axon Repository](https://github.com/aayushlalroy/axon)** — Official source code and documentation for Axon CLI.
+* ✍️ **[Axon CLI Blog Post](https://www.roya2yush.com/writing/axon-ai-agent-skill-management)** — Deep dive into Axon's skill and constitution management system.
+* ✍️ **[AI Assets Blog Post](https://www.roya2yush.com/writing/ai-assets-production-ready-agent-skills)** — Guide to production-ready agent skills and principles.
+* 🧠 **[Skills, Principles & Workflows Architecture](https://www.roya2yush.com/writing/ai-agent-skills-principles-workflows-architecture)** — Architectural guide explaining how skills, principles, and workflows operate together.
+
